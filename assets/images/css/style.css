@@ -13,19 +13,7 @@ a:hover {
 
 }
 
-h1,h2, h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-style: italic;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(253, 3, 3);
-    border-style: solid;
-    border-bottom: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    
-}
+
 
 p{
 
@@ -33,6 +21,21 @@ p{
 
 }
 
+article{
+flex:1;
+}
+
+article:nth-of-type(2) {
+flex:2;
+
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+}
 
 img {
     border: 1px solid rgb(255, 0, 0);
